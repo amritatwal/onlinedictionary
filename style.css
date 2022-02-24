@@ -1,0 +1,73 @@
+body {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#f3f3f3; 
+    margin: auto;
+}
+
+#banner {
+    background-color: rgb(68, 112, 208);
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+
+#site-name {
+    color:rgb(255, 255, 255);
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 1.7em;
+    align-self: flex-end;
+    padding-left: 1em;
+}
+
+#userInput {
+    margin-top: 30%;
+    width: 500px;
+    height: 30px;
+    display: inline-flex;
+    padding: 0.5rem;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+#container {
+    background-color: #ffffff;
+    display: flex;
+    width: 50%;
+    margin-top: 2em;
+    padding: 1em;
+    height: auto;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+}
+
+li {
+    font-size: 1.3rem;
+    padding: 0.2em;
+    font-style: italic;
+}
+
+li:before {
+    margin-right: 10px;
+    counter-increment: item;
+    content: counter(item);
+    background: rgb(179, 187, 189);
+    border-radius: 20%;
+    color: white;
+    width: 1.2em;
+    font-size: 0.8em;
+    text-align: center;
+    display: inline-block;
+}
+
+.phonetic {
+    padding: 10px;
+    line-height: 1.6em;
+}

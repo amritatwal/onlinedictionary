@@ -48,7 +48,7 @@ const h3 = document.querySelector("h3");
 // Select p tag with class "word" to update with word 
 const p = document.querySelector(".word");
 
-function handleHeader(e) {
+function handleEnterKey(e) {
     // Read the value from the value property
     let word = e.target.value;
     if (e.keyCode === 13) {
@@ -57,9 +57,9 @@ function handleHeader(e) {
     }
 };
 
-// Change h3 to targetWord
-inputBox.addEventListener("keyup", handleHeader);
 
+// Change h3 to targetWord if enter key pressed or search icon is clicked
+inputBox.addEventListener("keyup", handleEnterKey);
 
 // function for event
 function receiveUserWord(event) {
@@ -95,9 +95,8 @@ function populateList() {
 
 
 function handleWordError() {
-    let errorMessage = document.createElement("p");
-    errorMessage.innerText = `I don't think the word "${targetWord}" exists!`;
-    container.appendChild(errorMessage);
+    clearContents()
+    h3.innerText = `I don't think the word exists!`;
 }
 
 function clearContents() {
@@ -109,13 +108,13 @@ function clearContents() {
 };
 
 // use insertBefore to place an h2 that contains the current word being defined
-function createSubHeading() {
-    subHeading = document.createElement("h2");
-    mainList = document.querySelector("ol");
-    let container = document.getElementById("container");
-    subHeading.innerText = `${targetWord}:`;
-    container.insertBefore(subHeading, mainList);
-}
+// function createSubHeading() {
+//     subHeading = document.createElement("h2");
+//     mainList = document.querySelector("ol");
+//     let container = document.getElementById("container");
+//     subHeading.innerText = `${targetWord}:`;
+//     container.insertBefore(subHeading, mainList);
+// }
 
 function addPhonetic() {
     phonetic = document.querySelector(".results--phonetic");

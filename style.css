@@ -82,8 +82,7 @@ body {
 }
 
 #site-name > span {
-    font-weight: 400;
-    font-style: italic;
+    font-weight: 300;
 }
 
 .main { 

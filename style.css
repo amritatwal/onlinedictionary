@@ -162,6 +162,11 @@ li:before {
     font-size: 1.6em;
 }
 
+.results--phonetic {
+    display: inline;
+    margin-right: 1em;
+}
+
 h1 { 
     font-weight: 400;
     font-size: 5em;

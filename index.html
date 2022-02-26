@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Online Dictionary</title>
-  </head>
-  <body>
-    <div id="banner">
-      <p id="site-name">online dictionary</p>
-    </div>
 
-    <div id="input-container">
-      <input
-        id="userInput"
-        type="text"
-        placeholder="Enter your word here"
-        style="border: one"
-      />
-    </div>
-    <h1>So you want to know more about the word...</h1>
-    <div id="container">
-      <ol></ol>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>wordsearch | A dynamic word search tool</title>
+</head>
 
-    <script src="main.js"></script>
-  </body>
+<body>
+  <div class="wrapper">
+    <div class="navbar">
+      <p id="site-name">Word<span>search</span></p>
+      <div class="navbar--links">
+        <p>Trending</p>
+        <p>Learn</p>
+        <p>Word of the Day</p>
+        <span class="material-icons-outlined user">
+          person
+          </span>
+      </div>
+    </div>
+    <div class="banner">
+      <h1>Search for your word below</h1>
+      <div id="input-container">
+        <input id="userInput" type="text" style="border: one" />
+        <span class="material-icons">search</span>
+      </div>
+    </div>
+    <div class="main">
+      <div class="results">
+        <div class="results--info">
+          <h3></h3>
+          <p class="results--phonetic"></p>
+          <span class="material-icons">
+            volume_up
+          </span>
+          <p>See synonyms for the word: <span class="word"></span></p>
+        </div>
+        <ol></ol>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
 </html>

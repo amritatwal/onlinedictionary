@@ -2,6 +2,7 @@ html {
     background: #396afc;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
 }
 
 body {
@@ -24,6 +25,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar--links {
@@ -50,9 +54,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 10em;
     margin-bottom: 4em;
+
+}
+
+.banner--inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #site-name {
@@ -75,10 +87,7 @@ body {
     margin-top: 2em;
     padding: 1em;
     visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -96,6 +105,7 @@ body {
 ol {
     list-style: none;
     counter-reset: item;
+    padding: 0;
 }
 
 li {
@@ -138,9 +148,10 @@ li:before {
 .results {
     padding: 1em;
     margin: 1em;
-    min-width: 800px;
-    min-height: 400px;
-    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .results--info {

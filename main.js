@@ -120,5 +120,9 @@ function createSubHeading() {
 function addPhonetic() {
     phonetic = document.querySelector(".results--phonetic");
     phoneticText = wordFromData["phonetic"];
-    phonetic.innerText = phoneticText;
+    if (phoneticText === undefined) {
+        phonetic.innerText = "Apologies, no phonetic found.";
+    } else {
+        phonetic.innerText = phoneticText;
+    }
 }

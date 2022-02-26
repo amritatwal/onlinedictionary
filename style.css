@@ -178,9 +178,13 @@ h1 {
 
 h3 { 
     font-weight: 600;
-    font-size: 3.5em;
+    font-size: 4em;
     color: #272a2d;
     letter-spacing: 1px;
+}
+
+h3::first-letter {
+    text-transform:capitalize;
 }
 
 .user {

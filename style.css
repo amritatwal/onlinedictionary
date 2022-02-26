@@ -1,7 +1,7 @@
 html {
-    background: #396afc;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
 }
 
@@ -18,6 +18,9 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
   
 .navbar {
@@ -94,7 +97,7 @@ body {
 }
 
 #userInput {
-    min-width: 600px;
+    width: 600px;
     height: 30px;
     display: inline-flex;
     letter-spacing: 0.1em;
@@ -195,3 +198,23 @@ h3::first-letter {
 .user {
     color: #272a2d;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #userInput {
+        width: 100px;
+    }
+    .navbar--links {
+        margin-top: .4em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .navbar--links > p {
+        padding: .5em;
+        margin: 0;
+    }
+    h1 { 
+        font-size: 2.3em;
+    }
+  }

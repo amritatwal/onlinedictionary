@@ -60,7 +60,6 @@ body {
     justify-content: center;
     margin-top: 10em;
     margin-bottom: 4em;
-
 }
 
 .banner--inner {
@@ -149,7 +148,7 @@ li:before {
 
 .results {
     padding: 1em;
-    margin: 5em;
+    margin: 2em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

@@ -6,11 +6,15 @@ html {
 }
 
 body {
-    font-family: "Fredoka", sans-serif;
+    font-family: "Fredoka", "Arial", sans-serif;
+    font-display: swap;
     flex-direction: column;
     margin: 0 auto;
     height: 100vh;
     font-size: 62.5%;
+    --primary-color: #396afc;
+    --primary-dark: rgb(33, 33, 33);
+    --primary-light: #ECE9E6;
 }
 
 .wrapper {  
@@ -18,7 +22,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: #396afc;  /* fallback for old browsers */
+    background: var(--primary-color);  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -28,7 +32,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #396afc;  /* fallback for old browsers */
+    background: var(--primary-color);   /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -46,11 +50,11 @@ body {
     font-weight: 400;
     letter-spacing: 1px;
     font-size: 1.4em;
-    color: rgb(33, 33, 33);
+    color: var(--primary-dark);
 }
 
 .banner {
-    background: #396afc;  /* fallback for old browsers */
+    background: var(--primary-color);  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
@@ -70,7 +74,7 @@ body {
 }
 
 #site-name {
-    color: #ffffff;
+    color: var(--primary-light); 
     text-transform: lowercase;
     font-weight: 500;
     font-size: 2em;
@@ -89,7 +93,7 @@ body {
     padding: 1em;
     visibility: hidden;
     height: 100%;
-    background: #ECE9E6;  /* fallback for old browsers */
+    background: var(--primary-light);   /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -121,7 +125,7 @@ li:before {
     content: counter(item);
     background: rgb(179, 187, 189);
     border-radius: 20%;
-    color: white;
+    color: var(--primary-light); 
     width: 1.2em;
     font-size: 0.8em;
     text-align: center;
@@ -137,13 +141,13 @@ li:before {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: solid 1px rgb(211, 210, 210);
+    border-bottom: solid 1px var(--primary-light); 
     padding: .5em;
     background-color: transparent;
 }
 
 .material-icons {
-    color: rgb(211, 210, 210);
+    color: #9f9d9d;
 }
 
 .results {
@@ -171,7 +175,7 @@ li:before {
 h1 { 
     font-weight: 400;
     font-size: 5em;
-    color: white;
+    color: var(--primary-light); 
     letter-spacing: 1px;
 }
 
@@ -194,7 +198,7 @@ h3::first-letter {
 }
 
 .user {
-    color: #272a2d;
+    color: var(--primary-dark); 
 }
 
 

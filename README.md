@@ -2,11 +2,18 @@
 
 <p align="center">
 <img src="https://i.ibb.co/hcXwb0G/ezgif-com-gif-maker-1.gif" alt="live-demo-app">
+    <br>
+<a href="https://onlinewordsearch.netlify.app/" target="_blank" rel="noreferrer noopener">Live</a>
 </p>
 
-3. **A brief description of the purpose/aim**
-    - Why does the project exist and what was the motivation behind it?
-4. **What you learnt, what you enjoyed, what was challenging** 
+
+#### Description
+
+wordsearch is an online word lookup served by an external API. This is an enhanced version of an application my partner and I made during the second week of School of Code during a Hackathon. The purpose was to create an application that requested data from an external API using our ability to make fetch requests so to build on our foundational JavaScript knowledge. 
+
+This application is a reworked, tidied up and more dynamic version of the application we made found [here](https://i.ibb.co/cv3nzPg/Screenshot-2022-03-06-at-10-05-20.png). 
+
+#### What I learnt, what I enjoyed and what was challenging
     - Explain what you learnt, any goals achieved and how
     - Goals you are aiming for (with future features, sprints, releases)
     - Teamwork (evidence)

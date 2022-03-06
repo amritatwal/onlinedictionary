@@ -22,7 +22,7 @@ JavaScript
 - Clean and minimal user interface
 
 #### Approach
-For this Hackathon we had a list of APIs to choose from and took time in the beginning to ideate and brainstorm. After experimenting with each API, we chose to work with a dictionary API due to the number of possbilities involved with the data in our hands. JavaScript was used because we were able to use our knowledge and skills, and importantly, be able to interact with the DOM for example updating the inner text of elements. We took inspiration from websites such as https://www.dictionary.com/ in terms of the design and features - the blue/white design combination and its informative nature.
+For this Hackathon we had a list of APIs to choose from and took time in the beginning to ideate and brainstorm. After experimenting with each API, we chose to work with a dictionary API due to the number of possbilities involved with the data in our hands. JavaScript was used because we were able to use our knowledge and skills, and importantly be able to interact with the DOM, such as for example, updating the inner text of elements. We took inspiration from websites such as https://www.dictionary.com/ in terms of the design and features - the blue/white design combination and its informative nature.
 
 #### What I learnt, what I enjoyed and what was challenging
 

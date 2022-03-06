@@ -16,6 +16,14 @@ This application is a reworked, tidied up and more dynamic version of the applic
 #### Tech stack
 JavaScript
 
+#### Key features
+- The ability to enter a word and recieve defintion(s) and a phonetic in a fun way
+- Error handling for words that do not exist or can not be found 
+- Clean and minimal user interface
+
+#### Approach
+For this Hackathon we had a list of APIs to choose from and took time in the beginning to ideate and brainstorm. After experimenting with each API, we chose to work with a dictionary API due to the number of possbilities involved with the data in our hands. JavaScript was used because we were able to use our knowledge and skills, and importantly, be able to interact with the DOM for example updating the inner text of elements. We took inspiration from websites such as https://www.dictionary.com/ in terms of the design and features - the blue/white design combination and its informative nature.
+
 #### What I learnt, what I enjoyed and what was challenging
 
 This was the very first time I had successfully fetched data from an external API so this application marked a milestone in my journey as a developer. I had also learnt how to interact with APIs in general, toying around with the DOM and creating responsive and interactive applications. What was especially challenging during this Hackathon was dealing with JSON formatted data, nested objects and arrays, and figuring out how to pull out the data we required. 
@@ -26,21 +34,15 @@ As a pair, my partner and I did superbly. We pair programmed effectively, asked 
 
 Revisiting this application after finishing the course, I took it upon myself to add some further dynacism and clean up any redundant code. I wanted to leave the application generally as it were in terms of logic and functionality so I can demonstrate the growth between the level I was at that point in comparison to where I am now. 
 
-What could be improved on:
+Suggestions:
 - Implement some kind of testing
 - Making it more responsive
 - Adding more features such as synonyms
 - Making more use of the data retrieved from the API (what else is there one can work with)
 - Type of word e.g. is it a noun, pronoun?
 
-#### Key features
-- 
-
-##### Approach
-
-- Explain why you did something the way you did it as it shows intentionality, also note any design patterns and styles used
-
 ##### Credit
 
 I'd like to credit my [partner](https://github.com/ajp64) for their work and help in making this application.
+API used is [here](https://dictionaryapi.dev/).
 

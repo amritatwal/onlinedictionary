@@ -35,7 +35,7 @@ As a pair, my partner and I did superbly. We pair programmed effectively, asked 
 Revisiting this application after finishing the course, I took it upon myself to add some further dynacism and clean up any redundant code. I wanted to leave the application generally as it were in terms of logic and functionality so I can demonstrate the growth between the level I was at that point in comparison to where I am now. 
 
 Suggestions:
-- Implement some kind of testing
+- Implement testing
 - Making it more responsive
 - Adding more features such as synonyms
 - Making more use of the data retrieved from the API (what else is there one can work with)
